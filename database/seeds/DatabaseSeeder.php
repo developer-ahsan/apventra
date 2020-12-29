@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'dev@bbits.solutions',
             'password' => 'gpssafe2018!',
             'user_type' => 'admin'
-        ],[
+        ]);	
+     DB::table('users')->insert([
             'f_name' => 'Cesar',
             'l_name' => 'Test',
             'email' => 'cesar@gpssafesolutions.ca',
